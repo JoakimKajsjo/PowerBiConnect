@@ -1,0 +1,51 @@
+﻿@model PowerBiConnect.ReportViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="~/scripts/powerbi.js"></script>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    @if (Model != null)
+    {
+        <p id="accessToken" class="hidden">@Model.accessToken</p>
+        <p id="embedUrl" class="hidden">@Model.embedUrl</p>
+        <p id="reportId" class="hidden">@Model.reportId</p>
+        <div id="container" class="container"></div>
+    }
+    <script type="text/javascript">
+        window.onload = function () {
+
+            var accessToken = document.getElementById('accessToken').innerText;
+
+            if (!accessToken || accessToken == "") {
+                return;
+            }
+
+            var embedUrl = document.getElementById('embedUrl').innerText;
+            var reportId = document.getElementById('reportId').innerText;
+
+            var container = document.getElementById("container");
+            var config = {
+                type: 'report',
+                accessToken: accessToken,
+                embedUrl: embedUrl,
+                id: reportId,
+                settings: {
+                    filterPaneEnabled: false,
+                    navContentPaneEnabled: false
+                }
+            };
+            powerbi.embed(container, config);
+            var element = powerbi.get(container);
+            
+            
+            setInterval(function () {
+                element.reload();
+            }, 15*1000);
+            };
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\bin\Debug\netcoreapp2.0\PowerBiConnect.deps.json
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\bin\Debug\netcoreapp2.0\PowerBiConnect.runtimeconfig.json
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\bin\Debug\netcoreapp2.0\PowerBiConnect.runtimeconfig.dev.json
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\bin\Debug\netcoreapp2.0\PowerBiConnect.dll
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\bin\Debug\netcoreapp2.0\PowerBiConnect.pdb
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\obj\Debug\netcoreapp2.0\PowerBiConnect.csproj.CoreCompileInputs.cache
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\obj\Debug\netcoreapp2.0\PowerBiConnect.AssemblyInfoInputs.cache
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\obj\Debug\netcoreapp2.0\PowerBiConnect.AssemblyInfo.cs
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\obj\Debug\netcoreapp2.0\PowerBiConnect.dll
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\obj\Debug\netcoreapp2.0\PowerBiConnect.pdb
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\obj\Debug\netcoreapp2.0\PowerBiConnect.csprojAssemblyReference.cache
+C:\Users\Joakim\source\repos\PowerBiConnect\PowerBiConnect\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
