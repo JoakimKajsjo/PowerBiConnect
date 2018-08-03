@@ -1,0 +1,1 @@
+C:\Users\Joakim\source\repos\PowerBiConnect\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

@@ -14,7 +14,7 @@ namespace PowerBiConnect.Controllers
     public class HomeController : Controller
     {
         readonly string aadAuthUri = "https://login.windows.net/common/oauth2/authorize/";
-        readonly string redirectUri = "http://51.141.113.167:8000/Home/Index";
+        readonly string redirectUri = "http://localhost/Home/Index";
         readonly string appId;
         readonly string appSecret;
         readonly string powerBiApiUri = "https://api.powerbi.com/";
@@ -42,7 +42,7 @@ namespace PowerBiConnect.Controllers
 
                 report = GetReport();
                 return View(new ReportViewModel(accessToken, report.Id, report.EmbedUrl));
-            }
+            }  
         }
 
         public string GetAccessToken()
